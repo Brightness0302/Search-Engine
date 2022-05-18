@@ -1,0 +1,314 @@
+html, main{
+  height: 100%;
+  margin: 0;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  /* margin-top: 6rem;
+  margin-bottom: 3rem; */
+}
+
+
+/* main {
+  position: relative;
+  min-height: 100vh;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/****************************Utilities**********************************/
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--light-color);
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+  margin-top: 1rem;
+}
+
+
+/****************************Form Section**********************************/
+
+form {
+  text-align: center;
+}
+
+button {
+  background-color: #406882;
+  color: white;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.form-container {
+  padding: 10px;
+}
+
+input{
+  margin-top: 1rem;
+  width: 50%
+}
+
+
+
+/******************************Image Section*******************************/
+header h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: Helvetica;
+  text-align: center;
+  text-shadow: 0 1px 5px rgb(0 0 0 / 40%);
+  margin-top: 1.5rem;
+}
+
+
+
+
+/******************************Middle Section*******************************/
+
+.content-wrap {
+  padding-bottom: 0.5rem;
+}
+
+section{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.team-head {
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.team-members {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.member-address {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+
+
+/**************************Footer Section***********************************/
+
+
+#foot-main{
+  text-align: center;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* Navbar */
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  position:relative;
+  z-index: 1030;
+  width: 100%;
+  top: 0;
+  background-color:#406882;
+  border-bottom: solid 1px #17a2b8;
+  opacity: 0.9;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+.navbar .welcome span {
+  margin-right: 0.6rem; 
+}
+
+.tabs {
+  border: 1px solid #ccc;
+  border-style: dashed;
+  overflow: hidden;
+  margin: 17px 0
+}
+
+
+/**************************Landing Page***********************************/
+#team {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  /* display: flex;
+  justify-content: center; */
+  margin-top: 20px;
+  top:50%;
+  left:35%;
+  /* transform:translate(-50%, -50%); */
+}
+
+img:not(.news__img) {
+  position: relative;
+}
+
+/**************************Forms***********************************/
+/* .form .form-group {
+  margin: 1.2rem 0;
+}
+
+.form .form-text {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: #888;
+}
+
+.form input[type='text'],
+.form input[type='email'],
+.form input[type='password'],
+.form input[type='date'],
+.form select,
+.form textarea {
+  display:block;
+  width: auto;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+.form input[type='submit'],
+button {
+  font: inherit;
+}
+
+.form-center{
+  display: flex;
+  justify-content: center;
+} */
+
+
+.my-1 {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+/* .settings {
+  border-style: dashed;
+} */
+
+.cancel, .ok{
+  float: right;
+  border: none;
+  color: white;
+  padding: 9px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.ok{
+  margin-right: 20px;
+}
+
+.settings-btn{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* dashboard styles */
+
+
+
+
+/* landing page */
+
+.news {
+  border-style: groove;
+  border-radius: 0.5rem;
+  padding: 30px;
+  margin-top: 5px;
+
+}
+
+.news__desc {
+  font-size: 12px;
+  font-style: italic;
+  display: block;
+  margin: 5px 0;
+}
